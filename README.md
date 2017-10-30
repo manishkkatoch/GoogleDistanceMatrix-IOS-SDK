@@ -1,6 +1,6 @@
 # GoogleDistanceMatrix-IOS-SDK
 
-[![CI Status](http://img.shields.io/travis/manishkkatoch/GoogleDistanceMatrixSDK.svg?style=flat)](https://travis-ci.org/manishkkatoch/GoogleDistanceMatrixSDK)
+[![CI Status](https://travis-ci.org/manishkkatoch/GoogleDistanceMatrix-IOS-SDK.svg?branch=master)](https://travis-ci.org/manishkkatoch/GoogleDistanceMatrix-IOS-SDK)
 [![Version](https://img.shields.io/cocoapods/v/GoogleDistanceMatrixSDK.svg?style=flat)](http://cocoapods.org/pods/GoogleDistanceMatrixSDK)
 [![License](https://img.shields.io/cocoapods/l/GoogleDistanceMatrixSDK.svg?style=flat)](http://cocoapods.org/pods/GoogleDistanceMatrixSDK)
 [![Platform](https://img.shields.io/cocoapods/p/GoogleDistanceMatrixSDK.svg?style=flat)](http://cocoapods.org/pods/GoogleDistanceMatrixSDK)
