@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GoogleDistanceMatrixSDK_Example' do
+  pod 'GoogleDistanceMatrixSDK', :path => '../'
+
+  target 'GoogleDistanceMatrixSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
