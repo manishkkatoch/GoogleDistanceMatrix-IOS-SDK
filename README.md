@@ -1,4 +1,4 @@
-# GoogleDistanceMatrixSDK
+# GoogleDistanceMatrix-IOS-SDK
 
 [![CI Status](http://img.shields.io/travis/manishkkatoch/GoogleDistanceMatrixSDK.svg?style=flat)](https://travis-ci.org/manishkkatoch/GoogleDistanceMatrixSDK)
 [![Version](https://img.shields.io/cocoapods/v/GoogleDistanceMatrixSDK.svg?style=flat)](http://cocoapods.org/pods/GoogleDistanceMatrixSDK)
@@ -22,7 +22,7 @@ pod 'GoogleDistanceMatrixSDK'
 
 ## Author
 
-Manish Katoch, kmanish@thoughtworks.com
+Manish Katoch, manish.katoch@gmail.com
 
 ## License
 
