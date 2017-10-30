@@ -12,8 +12,14 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6A98C036B685FDA6518BB501 /* Pods_GoogleDistanceMatrixSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C9DDACF2C905FBE0CB591E /* Pods_GoogleDistanceMatrixSDK_Example.framework */; };
+		90CA98971FA7091A00424341 /* GDMAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CA98921FA708A900424341 /* GDMAPITests.swift */; };
+		90CA98991FA70D6100424341 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90CA98981FA70D6100424341 /* OHHTTPStubs.framework */; };
+		90CA989A1FA70D9800424341 /* OHHTTPStubs.framework in Resources */ = {isa = PBXBuildFile; fileRef = 90CA98981FA70D6100424341 /* OHHTTPStubs.framework */; };
+		90CA989B1FA7119800424341 /* singleOriginDestination.json in Resources */ = {isa = PBXBuildFile; fileRef = 90CA98941FA708A900424341 /* singleOriginDestination.json */; };
+		90CA989D1FA7147100424341 /* singleOriginDestinationTraffic.json in Resources */ = {isa = PBXBuildFile; fileRef = 90CA989C1FA7147100424341 /* singleOriginDestinationTraffic.json */; };
+		90CA989F1FA7160500424341 /* error.json in Resources */ = {isa = PBXBuildFile; fileRef = 90CA989E1FA7160500424341 /* error.json */; };
+		90CA98A11FA7187100424341 /* wrongTrafficResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 90CA98A01FA7187100424341 /* wrongTrafficResponse.json */; };
 		CBBACC31D572A4B6DF5EBB59 /* Pods_GoogleDistanceMatrixSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D759FFE86906109FE7AF1BC1 /* Pods_GoogleDistanceMatrixSDK_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,8 +35,8 @@
 
 /* Begin PBXFileReference section */
 		2694347CCF2325EE46905A75 /* Pods-GoogleDistanceMatrixSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDistanceMatrixSDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDistanceMatrixSDK_Example/Pods-GoogleDistanceMatrixSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		49A3EA287C61F8003C5E3638 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		59506A90DBE8BFBED7D121EF /* GoogleDistanceMatrixSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GoogleDistanceMatrixSDK.podspec; path = ../GoogleDistanceMatrixSDK.podspec; sourceTree = "<group>"; };
+		49A3EA287C61F8003C5E3638 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		59506A90DBE8BFBED7D121EF /* GoogleDistanceMatrixSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GoogleDistanceMatrixSDK.podspec; path = ../GoogleDistanceMatrixSDK.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GoogleDistanceMatrixSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleDistanceMatrixSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,10 +46,15 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* GoogleDistanceMatrixSDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleDistanceMatrixSDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		77D134537110EB9B3FBCE3F4 /* Pods-GoogleDistanceMatrixSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDistanceMatrixSDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDistanceMatrixSDK_Tests/Pods-GoogleDistanceMatrixSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		817E2850A6D4D66440BECA15 /* Pods-GoogleDistanceMatrixSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDistanceMatrixSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDistanceMatrixSDK_Tests/Pods-GoogleDistanceMatrixSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		936199684A858D963C0685AD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		90CA98921FA708A900424341 /* GDMAPITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDMAPITests.swift; sourceTree = "<group>"; };
+		90CA98941FA708A900424341 /* singleOriginDestination.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = singleOriginDestination.json; sourceTree = "<group>"; };
+		90CA98981FA70D6100424341 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OHHTTPStubs.framework; path = "../../../../Library/Developer/Xcode/DerivedData/GoogleDistanceMatrixSDK-eembgmuiwiywxtgrwzgdoabvujtu/Build/Products/Debug-iphonesimulator/OHHTTPStubs/OHHTTPStubs.framework"; sourceTree = "<group>"; };
+		90CA989C1FA7147100424341 /* singleOriginDestinationTraffic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = singleOriginDestinationTraffic.json; sourceTree = "<group>"; };
+		90CA989E1FA7160500424341 /* error.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = error.json; sourceTree = "<group>"; };
+		90CA98A01FA7187100424341 /* wrongTrafficResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wrongTrafficResponse.json; sourceTree = "<group>"; };
+		936199684A858D963C0685AD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C0C9DDACF2C905FBE0CB591E /* Pods_GoogleDistanceMatrixSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleDistanceMatrixSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07F6F60EF83DD6D57F5C030 /* Pods-GoogleDistanceMatrixSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDistanceMatrixSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDistanceMatrixSDK_Example/Pods-GoogleDistanceMatrixSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D759FFE86906109FE7AF1BC1 /* Pods_GoogleDistanceMatrixSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleDistanceMatrixSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90CA98991FA70D6100424341 /* OHHTTPStubs.framework in Frameworks */,
 				CBBACC31D572A4B6DF5EBB59 /* Pods_GoogleDistanceMatrixSDK_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -126,7 +138,8 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				90CA98921FA708A900424341 /* GDMAPITests.swift */,
+				90CA98931FA708A900424341 /* responses */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -150,9 +163,21 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		90CA98931FA708A900424341 /* responses */ = {
+			isa = PBXGroup;
+			children = (
+				90CA98A01FA7187100424341 /* wrongTrafficResponse.json */,
+				90CA989E1FA7160500424341 /* error.json */,
+				90CA98941FA708A900424341 /* singleOriginDestination.json */,
+				90CA989C1FA7147100424341 /* singleOriginDestinationTraffic.json */,
+			);
+			path = responses;
+			sourceTree = "<group>";
+		};
 		D29CCCA4A44D3D6F7D1CD33D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				90CA98981FA70D6100424341 /* OHHTTPStubs.framework */,
 				C0C9DDACF2C905FBE0CB591E /* Pods_GoogleDistanceMatrixSDK_Example.framework */,
 				D759FFE86906109FE7AF1BC1 /* Pods_GoogleDistanceMatrixSDK_Tests.framework */,
 			);
@@ -216,10 +241,12 @@
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -258,6 +285,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90CA989F1FA7160500424341 /* error.json in Resources */,
+				90CA989D1FA7147100424341 /* singleOriginDestinationTraffic.json in Resources */,
+				90CA989B1FA7119800424341 /* singleOriginDestination.json in Resources */,
+				90CA98A11FA7187100424341 /* wrongTrafficResponse.json in Resources */,
+				90CA989A1FA70D9800424341 /* OHHTTPStubs.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				90CA98971FA7091A00424341 /* GDMAPITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,13 +540,17 @@
 			baseConfigurationReference = 2694347CCF2325EE46905A75 /* Pods-GoogleDistanceMatrixSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GoogleDistanceMatrixSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -523,13 +559,17 @@
 			baseConfigurationReference = D07F6F60EF83DD6D57F5C030 /* Pods-GoogleDistanceMatrixSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GoogleDistanceMatrixSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -537,20 +577,25 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 77D134537110EB9B3FBCE3F4 /* Pods-GoogleDistanceMatrixSDK_Tests.debug.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/OHHTTPStubs\"",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleDistanceMatrixSDK_Example.app/GoogleDistanceMatrixSDK_Example";
 			};
 			name = Debug;
 		};
@@ -558,16 +603,21 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 817E2850A6D4D66440BECA15 /* Pods-GoogleDistanceMatrixSDK_Tests.release.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/OHHTTPStubs\"",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleDistanceMatrixSDK_Example.app/GoogleDistanceMatrixSDK_Example";
 			};
 			name = Release;
 		};

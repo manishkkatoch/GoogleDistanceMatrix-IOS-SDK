@@ -1,0 +1,26 @@
+{
+    "destination_addresses": [
+        "Victoria, BC, Canada"
+    ],
+    "origin_addresses": [
+        "Vancouver, BC, Canada"
+    ],
+    "rows": [
+        {
+            "elements": [
+                {
+                    "distance": {
+                        "text": "114 km",
+                        "value": 114161
+                    },
+                    "duration": {
+                        "text": "3 hours 15 mins",
+                        "value": 11680
+                    },
+                    "status": "OK"
+                }
+            ]
+        }
+    ],
+    "status": "OK"
+}

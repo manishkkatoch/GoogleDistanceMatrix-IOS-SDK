@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GoogleDistanceMatrixSDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

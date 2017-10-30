@@ -1,0 +1,31 @@
+PODS:
+  - GoogleDistanceMatrixSDK (0.1.0)
+  - OHHTTPStubs (6.0.0):
+    - OHHTTPStubs/Default (= 6.0.0)
+  - OHHTTPStubs/Core (6.0.0)
+  - OHHTTPStubs/Default (6.0.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (6.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (6.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (6.0.0)
+
+DEPENDENCIES:
+  - GoogleDistanceMatrixSDK (from `../`)
+  - OHHTTPStubs
+
+EXTERNAL SOURCES:
+  GoogleDistanceMatrixSDK:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GoogleDistanceMatrixSDK: 27c606c62b36c2094b48916d8014278baf5a90d1
+  OHHTTPStubs: 752f9b11fd810a15162d50f11c06ff94f8e012eb
+
+PODFILE CHECKSUM: c01ae9640179923ae26382ec00701070f24a172c
+
+COCOAPODS: 1.2.1

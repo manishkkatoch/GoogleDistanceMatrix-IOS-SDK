@@ -1,0 +1,9 @@
+{
+    "destination_addresses": [
+        "Victoria, BC, Canada"
+    ],
+    "origin_addresses": [
+        "Vancouver, BC, Canada"
+    ],
+    "status": "REQUEST_DENIED"
+}
